@@ -1,0 +1,34 @@
+#Supervised Learning
+#1 Linear Regression
+##1 Introduction
+- given "right answers" in data
+- "Regression" Predict real-valued quantity
+- "classification" : predict a discrete robust output (eg. 0 or 1)
+- multiple features: eg. 2 features ,use 2-D graph to present
+- we can use many features to execute supervised learning
+- when only one feature, use a line to model and do the prediction;
+  when two features, use a line to separate the area and do prediction according to the location of the new points
+- supervised learning can do : prediction , regression; classification
+
+##2 Model Representation
+- training set --> Learning algorithm --> h(hypothesis, just a name, no reason why call it hypothesis)
+
+  new feature of data -->h--> estimation
+  
+  h maps from x's to y's
+- notation: 
+    - m- number of training samples
+    - x- "input" variable/feature
+    - y- "output"/target variable
+    - (x,y)- training example
+    - (xi,yi)- the ith training example
+- how to present h?
+
+  h(x) = aX + b
+  
+##3 Cost Function
+
+- how to choose parameters? make h(x)(predicted value) close to y(real data)
+  minimize : (1/2)1/m sum from 1 to m (h(xi)-yi)^2
+
+##4 Gradient Descent

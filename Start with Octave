@@ -1,0 +1,13 @@
+- eye(5,5) generate:
+```aidl
+ans =
+
+Diagonal Matrix
+
+   1   0   0   0   0
+   0   1   0   0   0
+   0   0   1   0   0
+   0   0   0   1   0
+   0   0   0   0   1
+```
+- submit1(eye(5,5)

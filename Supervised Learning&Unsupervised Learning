@@ -1,0 +1,8 @@
+#Supervised Learning & Unsupervised Learning
+
+##1 Supervised learning:
+ When doing classifying task, we provide the data with labeled type for training the model.Then let the trained machine to classify new data.
+
+##2 Unsupervised Learning
+We only provide data without types being specified and let the machine to identify the types and do the classifying job also known as clustering.
+
